@@ -16,8 +16,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
+    "serve": "serve .",
     "storybook": "start-storybook -p 6006 -s public",
-    "build-storybook": "build-storybook --docs -s public"
+    "build-storybook": "SB_URL=storybook-static/ build-storybook --docs -s public && cp storybook-static/*.html ./"
   },
   "eslintConfig": {
     "extends": [
@@ -43,6 +44,7 @@
     "@storybook/addon-essentials": "^6.1.14",
     "@storybook/addon-links": "^6.1.14",
     "@storybook/node-logger": "^6.1.14",
-    "@storybook/react": "^6.1.14"
+    "@storybook/react": "^6.1.14",
+    "serve": "^11.3.2"
   }
 }
