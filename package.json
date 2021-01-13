@@ -18,6 +18,7 @@
     "eject": "react-scripts eject",
     "serve": "serve .",
     "storybook": "start-storybook -p 6006 -s public",
+    "build-storybook-no-url": "build-storybook --docs -s public",
     "build-storybook": "SB_URL=storybook-static/ build-storybook --docs -s public && cp storybook-static/*.html ./"
   },
   "eslintConfig": {
