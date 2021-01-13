@@ -9,3 +9,5 @@ yarn
 yarn build-storybook
 yarn serve
 ```
+
+Vercel demo: https://storybook-issue-12444.vercel.app/
